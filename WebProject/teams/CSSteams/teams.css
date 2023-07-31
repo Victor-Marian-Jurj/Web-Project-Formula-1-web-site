@@ -1,0 +1,62 @@
+body {
+    text-align: left;
+  }
+  
+  #title-div {
+    background: #F4EEFF;
+    padding-bottom: 35px;
+  }
+  .navbar-brand {
+    margin-right: 30%;
+    color: black;
+  }
+  
+  
+   /* Add custom styles to make images the same size */
+   .card-img-top {
+    height: 300px;
+    width: auto; /* Adjust this value to make the image wider */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  
+  #feature-div{
+    background-color:#DCD6F7;
+    
+  }
+  
+  #jumbotron-div {
+    background-color:#A6B1E1;
+  }
+  
+  #team-like-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-like-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team-name {
+    margin-bottom: 5px;
+  }
+  
+  .like-button {
+    width: 120px;
+  }
+  
+  #footer-div {
+    background-color:#424874;
+    color: white;
+    text-align: center;
+  }
+  
+  

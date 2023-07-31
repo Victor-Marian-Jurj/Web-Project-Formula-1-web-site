@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title-div {
+  background: #F5EFE7;
+  
+}
+.navbar-brand {
+  margin-right: 30%;
+  color: black;
+}
+
+.welcome {
+text-align: left;
+}
+
+.welcome > p {
+margin-top: 40px;
+}
+
+ /* CSS for Traffic Light Dots */
+ #traffic-light {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+#racing-flag {
+  position: absolute;
+  bottom: 57%; /* Adjust the distance from the bottom */
+  left: 30%; /* Adjust the distance from the left */
+  display: none;
+  width: 12%; /* Adjust the flag's width */
+  height: auto; /* Maintain the aspect ratio */
+
+}
+
+.imgdriver1 {
+  width: 30%;
+  padding-top: 16px;
+}
+
+.imgdriver2 {
+  width: 25%;
+  padding-top: 13px;
+
+}
+
+.imgdriver3 {
+  width: 40%;
+  padding-top: 20px;
+
+}
+
+#diverimg {
+  width: 90%;
+  /* padding-top: 22%; */
+  
+}
+
+@media(max-width:767px){
+  #diverimg {
+    width: 100%;
+  }
+}
+
+#feature-div{
+  background-color: #D8C4B6;
+}
+
+.my-jumbo {
+  background-color: rgb(79, 112, 156);
+}
+
+.text-body-emphasis{
+  font-size: 2rem;
+}
+
+#footer-div {
+  background-color: rgb(33, 53, 85);
+  color: white;
+}
+

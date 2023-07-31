@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formula 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <!-- title section-->
+
+    <div id="title-div">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./news/news.html" class="nav-link">News</a>
+          </li>
+          <li class="nav-item">
+            <a href="./teams/teams.html" class="nav-link">Teams</a>
+          </li>
+          <li class="nav-item">
+            <a href="./drivers/drivers.html" class="nav-link">Drivers</a>
+          </li>
+        </ul>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="welcome">
+              <h1>Welcome to my Formula 1 web page!</h1>
+              <p>
+                Your go-to source for all things Formula 1 racing. From race
+                updates to driver profiles, team information, and breaking news,
+                we've got you covered. Stay tuned for the latest insights and
+                exhilarating moments from the world of Formula 1. Let's dive
+                into the excitement together!
+              </p>
+              <div id="traffic-light">
+                <!-- The initial traffic light will have no dots -->
+              </div>
+
+              <!-- Racing Flag -->
+              <img
+                src="./images/formula-1-racing-flags.png"
+                alt="Racing Flag"
+                id="racing-flag"
+              />
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="./images/f1gud.jpg" id="diverimg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- feature section -->
+
+    <div id="feature-div">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="./news/news.html"
+              ><img
+                src="./images/flag-removebg-preview.jpg"
+                alt=""
+                class="imgdriver3"
+            /></a>
+            <h3>News</h3>
+            <p>
+              Here you can find the latest news and updates from the world of
+              Formula 1.
+            </p>
+            <p>Stay tuned for exciting updates!</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="./teams/teams.html"
+              ><img
+                src="./images/carsrace-removebg-preview.jpg"
+                alt=""
+                class="imgdriver1"
+            /></a>
+            <h3>Teams</h3>
+            <p>
+              Explore the Formula 1 teams and learn about their history and
+              achievements.
+            </p>
+            <p>Each team brings unique strengths to the competition.</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="./drivers/drivers.html"
+              ><img
+                src="./images/driver-removebg-preview.jpg"
+                alt=""
+                class="imgdriver2"
+            /></a>
+            <h3>Drivers</h3>
+            <p>Discover the talented drivers who compete in Formula 1.</p>
+            <p>They push the limits of speed and skill.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jumbotron -->
+
+    <div id="jumbotron-div">
+      <div class="p-5 text-center rounded-3 my-jumbo">
+        <h1 class="text-body-emphasis">
+          Head over to the official Formula 1 Racing web page
+        </h1>
+        <p class="lead">
+          <a
+            href="https://www.formula1.com/"
+            target="_blank"
+            class="btn btn-danger"
+            >Click Here</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footer-div">
+      <div class="container">
+        <footer class="py-3">
+          <p class="text-white">© 2023 Fortech Academy</p>
+        </footer>
+      </div>
+    </div>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
