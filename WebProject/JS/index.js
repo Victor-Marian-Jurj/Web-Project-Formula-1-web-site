@@ -22,21 +22,17 @@ function animateTrafficLight() {
       addDotColor(colors[currentIndex]);
       count++;
     }
-
     currentIndex = (currentIndex + 1) % colors.length;
-
     setTimeout(changeDotColor, 1000);
   }
-
   const dotInterval = setTimeout(changeDotColor, 1000);
 }
 
 function animateRacingFlag() {
   const racingFlag = document.getElementById("racing-flag");
-  racingFlag.style.display = "block";
+  racingFlag.style.display = "block"; 
   let position = 0;
-  const distanceOfTravel = 0.45;
-  const maxPosition = (window.innerWidth - racingFlag.offsetWidth) * distanceOfTravel;
+  const maxPosition = document.querySelector("#traffic-light").offsetWidth - racingFlag.offsetWidth / 2;
 
   function moveFlag() {
     if (position >= maxPosition) {
@@ -46,7 +42,6 @@ function animateRacingFlag() {
       racingFlag.style.left = position + "px";
     }
   }
-
   const flagInterval = setInterval(moveFlag, 25); // Adjust the interval and speed as needed (smaller interval = faster animation)
 }
 

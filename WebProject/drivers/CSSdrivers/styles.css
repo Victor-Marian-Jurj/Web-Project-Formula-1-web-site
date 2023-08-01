@@ -6,29 +6,25 @@ body {
   background: #F4EEFF;
   padding-bottom: 35px;
 }
-
 .navbar-brand {
   margin-right: 30%;
   color: black;
 }
 
-.card-img-top {
-  height: 300px;
+ .card-img-top {
+  height: 300px; 
   width: auto;
   object-fit: cover;
   display: block;
   margin: 0 auto;
 }
 
-
-
-#feature-div {
-  background-color: #DCD6F7;
-
+#feature-div{
+  background-color:#DCD6F7;
 }
 
 #jumbotron-div {
-  background-color: #A6B1E1;
+  background-color:#A6B1E1;
 }
 
 #jumbotron-image {
@@ -37,7 +33,8 @@ body {
 }
 
 #footer-div {
-  background-color: #424874;
+  background-color:#424874;
   color: white;
   text-align: center;
 }
+

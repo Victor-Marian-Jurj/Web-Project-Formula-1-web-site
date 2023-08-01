@@ -1,16 +1,14 @@
 function handleLikeClick(newsIndex) {
   const likeCounter = document.getElementById(`like-counter-${newsIndex}`);
   let currentLikes = parseInt(likeCounter.textContent, 10);
-
   currentLikes++;
   likeCounter.textContent = currentLikes;
 
-  // Trigger the tire animation
   const tireImage = document.getElementById(`tire-image-${newsIndex}`);
   tireImage.classList.add("animate-tire");
   setTimeout(() => {
     tireImage.classList.remove("animate-tire");
-  }, 1000);
+  }, 1000); 
 }
 
 function addLikeButtonAndCounter() {
@@ -41,23 +39,20 @@ function addLikeButtonAndCounter() {
 }
 
 window.addEventListener("load", addLikeButtonAndCounter);
-
 document.addEventListener("DOMContentLoaded", function () {
-  // Function to add a point at the given position
+ 
   function addPoint(container, position) {
     const point = document.createElement("div");
     point.className = "point";
     point.style.position = "absolute";
-    point.style.width = "18px";
-    point.style.height = "18px";
-    point.style.borderRadius = "50%";
+    point.style.width = "18px"; 
+    point.style.height = "18px"; 
+    point.style.borderRadius = "50%"; 
     point.style.backgroundColor = "black";
     point.style.left = position + "%";
     point.style.top = "-5";
-    container.appendChild(point); // Add the point to the paragraph container
+    container.appendChild(point);
   }
-
-  // Get all the paragraph containers
   const paragraphContainers = document.querySelectorAll(".paragraph-container");
 
   // Add the three points after each paragraph container
