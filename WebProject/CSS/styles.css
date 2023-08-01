@@ -7,6 +7,7 @@ body {
   background: #F5EFE7;
   
 }
+
 .navbar-brand {
   margin-right: 30%;
   color: black;
@@ -28,7 +29,6 @@ margin-top: 40px;
   position: relative;
 }
 
- /* CSS for Traffic Light Dots */
  #traffic-light {
   display: flex;
   justify-content: space-between;
@@ -89,8 +89,6 @@ margin-top: 40px;
 
 #diverimg {
   width: 90%;
-  /* padding-top: 22%; */
-  
 }
 
 @media(max-width:767px){
@@ -99,7 +97,6 @@ margin-top: 40px;
   }
 
   #racing-flag {
-    /* top: 350px; */
     height: 70px;
     width: auto;
   }
